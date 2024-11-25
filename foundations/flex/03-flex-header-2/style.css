@@ -46,3 +46,15 @@ a {
 ul {
   list-style-type: none;
 }
+
+.left-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.right-side {
+  display: flex;
+  justify-content: flex-end;
+}
