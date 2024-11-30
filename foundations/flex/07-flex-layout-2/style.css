@@ -31,6 +31,7 @@ body {
   background: royalblue;
   box-sizing: border-box;
   /* Push the footer down by letting this fill up all the available space */
+  padding: 16px;
   flex-grow: 1;
   flex-shrink: 0;
 }
@@ -41,6 +42,15 @@ body {
   border-radius: 4px;
   /* Push the footer down by letting this fill up all the available space */
   flex-grow: 1;
+  padding: 16px;
+  width: 300px;
+}
+
+.cards {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  flex-wrap: wrap;
 }
 
 a {
@@ -49,7 +59,17 @@ a {
   font-size: 24px;
 }
 
+li {
+  margin-bottom: 16px;
+}
+
 ul {
   list-style-type: none;
-  padding-left: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
 }
